@@ -46,4 +46,69 @@ Tags: one-column, custom-menu, custom-logo, featured-images, translation-ready
     margin: 0;
   }
   
+
+
+:root{
+   /* Measurements */
+   --wpdevs-big-padding: 60px 0;
+   --wpdevs-mobile-padding: 20px 0;
+   --wpdevs-light-padding: 0 25px;
+   /* Colors */
+   --wpdevs-gray1: #7C7C7C;
+   --wpdevs-gray2: #F7F7F7;
+   --wpdevs-gray3: #DDDDDD;
+   --wpdevs-light-blue: #2A92D3;
+   --wpdevs-deep-blue: #213C4D;
+   --wpdevs-black-blue: #001E32;
+   --wpdevs-yellow: #CFAF07;
+}
+  /* Services */
+.services{ 
+   background: var( --wpdevs-deep-blue ); 
+   padding: var( --wpdevs-big-padding ); 
+   color: #ffffff; 
+}
+.services .container{
+   display: flex;
+   flex-wrap: wrap;
+   text-align: center;
+}
+.services .container > * {
+   flex: 1 1 250px;
+}
+.services-item{
+   padding: var(--wpdevs-light-padding);
+}
+.services-item p{
+   margin-bottom: 40px;
+}
+.services-item figure img{ 
+   background: var( --wpdevs-black-blue );
+   padding: 15px; 
+}
+.services h2{ 
+   text-align: center;
+   position: relative;  
+}
+.services h2::after{
+   content: '';
+   position: absolute;
+   background-color: var( --wpdevs-light-blue );
+   width: 35px;
+   height: 5px;
+   right: calc( 50% - 15px);
+   bottom: 0;
+}
+.services h4{
+   margin: 0;
+}
+@media (max-width: 768px) {
+   .services .container{
+       flex-direction: column;
+       padding: 0;
+   }
+   .services-item{
+       max-width: 100%;
+   }
+}
  

@@ -84,3 +84,51 @@ function environs_config(){
 
 }
 add_action( 'after_setup_theme', 'environs_config', 0 );
+
+add_action( 'widgets_init', 'environs_sidebars' );
+function environs_sidebars(){
+    register_sidebar(
+        array(
+            'name'  => esc_html__( 'Blog Sidebar', 'environs' ),
+            'id'    => 'sidebar-blog',
+            'description'   => esc_html__( 'This is the Blog Sidebar. You can add your widgets here.', 'wp-devs' ),
+            'before_widget' => '<div class="widget-wrapper">',
+            'after_widget'  => '</div>',
+            'before_title'  => '<h4 class="widget-title">',
+            'after_title'   => '</h4>'
+        )
+    );
+    register_sidebar(
+        array(
+            'name'  => esc_html__( 'Service 1', 'wp-devs' ),
+            'id'    => 'services-1',
+            'description'   => esc_html__( 'First Service Area', 'wp-devs' ),
+            'before_widget' => '<div class="widget-wrapper">',
+            'after_widget'  => '</div>',
+            'before_title'  => '<h4 class="widget-title">',
+            'after_title'   => '</h4>'
+        )
+    );
+    register_sidebar(
+        array(
+            'name'  => esc_html__( 'Service 2', 'wp-devs' ),
+            'id'    => 'services-2',
+            'description'   => esc_html__( 'Second Service Area', 'wp-devs' ),
+            'before_widget' => '<div class="widget-wrapper">',
+            'after_widget'  => '</div>',
+            'before_title'  => '<h4 class="widget-title">',
+            'after_title'   => '</h4>'
+        )
+    );
+    register_sidebar(
+        array(
+            'name'  => esc_html__( 'Service 3', 'wp-devs' ),
+            'id'    => 'services-3',
+            'description'   => esc_html__( 'Third Service Area', 'wp-devs' ),
+            'before_widget' => '<div class="widget-wrapper">',
+            'after_widget'  => '</div>',
+            'before_title'  => '<h4 class="widget-title">',
+            'after_title'   => '</h4>'
+        )
+    );
+}
