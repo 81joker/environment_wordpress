@@ -9,6 +9,8 @@ get_header();
     get_template_part( 'parts/content', 'breadcrumb' );
 ?>
 
+<h1>Archive About Temporal</h1>
+
 <!-- About Start -->
  <?php get_template_part( 'parts/content', 'about-start' );?>
 <!-- About End -->
