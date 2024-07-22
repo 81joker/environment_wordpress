@@ -8,22 +8,13 @@
             while( have_posts() ):
                 the_post();
                 get_template_part( 'parts/content', 'single' );
-                ?>
-                <div class="wpdevs-pagination">
-                    <div class="pages next">
-                        <?php next_post_link( '&laquo; %link' ); ?>
-                    </div>
-                    <div class="pages previous">
-                        <?php previous_post_link( '%link &raquo;' ); ?>  
-                    </div>
-                </div>
-                
-                <?php
+              echo get_field('text_field');
+              $image = get_field('image_field'); 
 
-                if( comments_open() || get_comments_number() ){
-                    comments_template();
-                }
+              ?>
+            <img src="<?php echo esc_url($image['url']); ?>">
 
+<?php
             endwhile;
             ?>
 

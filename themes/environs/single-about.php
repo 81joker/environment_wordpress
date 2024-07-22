@@ -7,7 +7,9 @@ get_header();
         the_post();
     // pageBanner();
     get_template_part( 'parts/content', 'breadcrumb' );
+    
 ?>
+
 
 
 <!-- About Start -->
