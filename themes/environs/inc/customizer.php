@@ -8,14 +8,14 @@ function themename_customize_register($wp_customize)
         'priority'       => 25,
     ));
 
-    $wp_customize->add_setting('first_slide', array(
+    $wp_customize->add_setting('slide_image_1', array(
         'default'        => '',
     ));
 
     // First Slide
     // Title
     $wp_customize->add_setting(
-        'first_slide_title',
+        'slide_title_1',
         array(
             'type' => 'theme_mod',
             'default' => __('Please, add some title', 'environs'),
@@ -24,7 +24,7 @@ function themename_customize_register($wp_customize)
     );
 
     $wp_customize->add_control(
-        'first_slide_title',
+        'slide_title_1',
         array(
             'label' => __('First Title', 'environs'),
             'description' => __('Please, type your here title here', 'environs'),
@@ -34,7 +34,7 @@ function themename_customize_register($wp_customize)
     );
     // Subtitle
     $wp_customize->add_setting(
-        'first_slide_subtitle',
+        'slide_subtitle_1',
         array(
             'type' => 'theme_mod',
             'default' => __('Please, add some subtitle', 'environs'),
@@ -43,7 +43,7 @@ function themename_customize_register($wp_customize)
     );
 
     $wp_customize->add_control(
-        'first_slide_subtitle',
+        'slide_subtitle_1',
         array(
             'label' => __('First Subtitle', 'environs'),
             'description' => __('Please, type your subtitle here', 'environs'),
@@ -54,16 +54,16 @@ function themename_customize_register($wp_customize)
 
     // First Slide content
     $wp_customize->add_setting(
-        'first_slide_content',
+        'slide_content_1',
         array(
             'type' => 'theme_mod',
-            'default' => __('Please, add some subtitle', 'environs'),
+            'default' => __('Please, add some Text', 'environs'),
             'sanitize_callback' => 'sanitize_textarea_field'
         )
     );
 
     $wp_customize->add_control(
-        'first_slide_content',
+        'slide_content_1',
         array(
             'label' => __('First Content', 'environs'),
             'description' => __('Please, type your subtitle here', 'environs'),
@@ -72,21 +72,21 @@ function themename_customize_register($wp_customize)
         )
     );
 
-    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'first_slide', array(
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'slide_image_1', array(
         'label'   => 'First Slide',
         'section' => 'slides',
-        'settings'   => 'first_slide',
+        'settings'   => 'slide_image_1',
     )));
 
 
     //Secoond Slide
-    $wp_customize->add_setting('second_slide', array(
+    $wp_customize->add_setting('slide_image_2', array(
         'default'        => '',
     ));
 
     // Second Title
     $wp_customize->add_setting(
-        'second_slide_title',
+        'slide_title_2',
         array(
             'type' => 'theme_mod',
             'default' => __('Please, add some title', 'environs'),
@@ -95,7 +95,7 @@ function themename_customize_register($wp_customize)
     );
 
     $wp_customize->add_control(
-        'second_slide_title',
+        'slide_title_2',
         array(
             'label' => __('Second Title', 'environs'),
             'description' => __('Please, type your here title here', 'environs'),
@@ -105,7 +105,7 @@ function themename_customize_register($wp_customize)
     );
     // Second Subtitle
     $wp_customize->add_setting(
-        'second_slide_subtitle',
+        'slide_subtitle_2',
         array(
             'type' => 'theme_mod',
             'default' => __('Please, add some subtitle', 'environs'),
@@ -114,7 +114,7 @@ function themename_customize_register($wp_customize)
     );
 
     $wp_customize->add_control(
-        'second_slide_subtitle',
+        'slide_subtitle_2',
         array(
             'label' => __('second Subtitle', 'environs'),
             'description' => __('Please, type your subtitle here', 'environs'),
@@ -125,7 +125,7 @@ function themename_customize_register($wp_customize)
 
     // Second Slide content
     $wp_customize->add_setting(
-        'second_slide_content',
+        'slide_content_2',
         array(
             'type' => 'theme_mod',
             'default' => __('Please, add some subtitle', 'environs'),
@@ -134,7 +134,7 @@ function themename_customize_register($wp_customize)
     );
 
     $wp_customize->add_control(
-        'second_slide_content',
+        'slide_content_2',
         array(
             'label' => __('Second Content', 'environs'),
             'description' => __('Please, type your subtitle here', 'environs'),
@@ -142,21 +142,21 @@ function themename_customize_register($wp_customize)
             'type' => 'textarea'
         )
     );
-    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'second_slide', array(
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'slide_image_2', array(
         'label'   => 'Second Slide',
         'section' => 'slides',
-        'settings'   => 'second_slide',
+        'settings'   => 'slide_image_2',
     )));
 
 
     // Third Slide
-    $wp_customize->add_setting('third_slide', array(
+    $wp_customize->add_setting('slide_image_3', array(
         'default'        => '',
     ));
 
     // Third Title
     $wp_customize->add_setting(
-        'third_slide_title',
+        'slide_title_3',
         array(
             'type' => 'theme_mod',
             'default' => __('Please, add some title', 'environs'),
@@ -165,7 +165,7 @@ function themename_customize_register($wp_customize)
     );
 
     $wp_customize->add_control(
-        'third_slide_title',
+        'slide_title_3',
         array(
             'label' => __('Third Title', 'environs'),
             'description' => __('Please, type your here title here', 'environs'),
@@ -175,7 +175,7 @@ function themename_customize_register($wp_customize)
     );
     // Third Subtitle
     $wp_customize->add_setting(
-        'third_slide_subtitle',
+        'slide_subtitle_3',
         array(
             'type' => 'theme_mod',
             'default' => __('Please, add some subtitle', 'environs'),
@@ -184,7 +184,7 @@ function themename_customize_register($wp_customize)
     );
 
     $wp_customize->add_control(
-        'third_slide_subtitle',
+        'slide_subtitle_3',
         array(
             'label' => __('Third Subtitle', 'environs'),
             'description' => __('Please, type your subtitle here', 'environs'),
@@ -195,16 +195,16 @@ function themename_customize_register($wp_customize)
 
     // Third Slide content
     $wp_customize->add_setting(
-        'third_slide_content',
+        'slide_content_3',
         array(
             'type' => 'theme_mod',
-            'default' => __('Please, add some subtitle', 'environs'),
+            'default' => __('Please, add some Text', 'environs'),
             'sanitize_callback' => 'sanitize_textarea_field'
         )
     );
 
     $wp_customize->add_control(
-        'third_slide_content',
+        'slide_content_3',
         array(
             'label' => __('Third Content', 'environs'),
             'description' => __('Please, type your subtitle here', 'environs'),
@@ -213,9 +213,9 @@ function themename_customize_register($wp_customize)
         )
     );
 
-    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'third_slide', array(
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'slide_image_3', array(
         'label'   => 'Third Slide',
         'section' => 'slides',
-        'settings'   => 'third_slide',
+        'settings'   => 'slide_image_3',
     )));
 }
