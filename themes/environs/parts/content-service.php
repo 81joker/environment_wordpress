@@ -24,7 +24,7 @@
 
             <div class="col-12">
                 <div class="d-flex align-items-center justify-content-center">
-                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="#">Read More</a>
+                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="<?php echo site_url('/service') ?>">Read More</a>
                 </div>
             </div>
         </div>
