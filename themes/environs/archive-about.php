@@ -5,8 +5,8 @@ get_header();
 <?php
 while (have_posts()) :
 the_post();
-// pageBanner();
-get_template_part('parts/content', 'breadcrumb');
+$args = 'About Us';
+get_template_part('parts/content', 'breadcrumb', $args);
 ?>
 
 <!-- About Start -->

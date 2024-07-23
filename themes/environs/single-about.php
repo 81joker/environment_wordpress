@@ -11,7 +11,7 @@ get_header();
 ?>
 
 
-
+<h1>Single About </h1>
 <!-- About Start -->
  <?php get_template_part( 'parts/content', 'about-start' );?>
 <!-- About End -->

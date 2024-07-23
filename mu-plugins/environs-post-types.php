@@ -3,7 +3,7 @@
 function environs_post_types()
 {
 
-    // ABout Post Type
+    // About post Type
     register_post_type('about', array(
       'show_in_rest' => true,
       'supports' => array('title','editor', 'thumbnail'),
@@ -18,6 +18,22 @@ function environs_post_types()
         'singular_name' => 'About Us'
       ),
       'menu_icon' => 'dashicons-groups'
+    ));
+    // Services Post Type
+    register_post_type('service', array(
+      'show_in_rest' => true,
+      'supports' => array('title','editor', 'thumbnail'),
+      'rewrite' => array('slug' => 'service'),
+      'has_archive' => true,
+      'public' => true,
+      'labels' => array(
+        'name' => 'Services',
+        'add_new_item' => 'Add New Service',
+        'edit_item' => 'Edit Service',
+        'all_items' => 'All Services',
+        'singular_name' => 'Service'
+      ),
+      'menu_icon' => 'dashicons-admin-generic'
     ));
   // // Campus Post Type
   // register_post_type('campus', array(
