@@ -1,0 +1,381 @@
+[23-Jul-2024 09:16:50 UTC] PHP Parse error:  syntax error, unexpected token "endwhile", expecting "elseif" or "else" or "endif" in /var/www/html/wp-content/themes/environs/page-home.php on line 28
+[23-Jul-2024 13:26:31 UTC] PHP Warning:  Attempt to read property "title" on null in /var/www/html/wp-includes/class-wp-customize-widgets.php on line 905
+[23-Jul-2024 13:29:26 UTC] PHP Parse error:  Unmatched '}' in /var/www/html/wp-content/themes/environs/inc/customizer.php on line 257
+[23-Jul-2024 13:29:26 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[23-Jul-2024 13:29:26 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[23-Jul-2024 13:29:28 UTC] PHP Parse error:  Unmatched '}' in /var/www/html/wp-content/themes/environs/inc/customizer.php on line 257
+[23-Jul-2024 13:29:28 UTC] PHP Parse error:  Unmatched '}' in /var/www/html/wp-content/themes/environs/inc/customizer.php on line 257
+[23-Jul-2024 13:29:35 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Gallery_Control" not found in /var/www/html/wp-content/themes/environs/inc/customizer.php:239
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(324): themename_customize_register(Object(WP_Customize_Manager))
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/class-wp-customize-manager.php(947): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 /var/www/html/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->wp_loaded('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-settings.php(722): do_action('wp_loaded')
+#8 /var/www/html/wp-config.php(142): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#10 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#11 /var/www/html/wp-admin/customize.php(13): require_once('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/environs/inc/customizer.php on line 239
+[23-Jul-2024 13:30:15 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Gallery_Control" not found in /var/www/html/wp-content/themes/environs/inc/customizer.php:239
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(324): themename_customize_register(Object(WP_Customize_Manager))
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/class-wp-customize-manager.php(947): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 /var/www/html/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->wp_loaded('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-settings.php(722): do_action('wp_loaded')
+#8 /var/www/html/wp-config.php(142): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#10 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#11 /var/www/html/wp-admin/customize.php(13): require_once('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/environs/inc/customizer.php on line 239
+[23-Jul-2024 13:30:16 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Gallery_Control" not found in /var/www/html/wp-content/themes/environs/inc/customizer.php:239
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(324): themename_customize_register(Object(WP_Customize_Manager))
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/class-wp-customize-manager.php(947): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 /var/www/html/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->wp_loaded('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-settings.php(722): do_action('wp_loaded')
+#8 /var/www/html/wp-config.php(142): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#10 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#11 /var/www/html/wp-admin/customize.php(13): require_once('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/environs/inc/customizer.php on line 239
+[23-Jul-2024 13:30:20 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Gallery_Control" not found in /var/www/html/wp-content/themes/environs/inc/customizer.php:239
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(324): themename_customize_register(Object(WP_Customize_Manager))
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/class-wp-customize-manager.php(947): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 /var/www/html/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->wp_loaded('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-settings.php(722): do_action('wp_loaded')
+#8 /var/www/html/wp-config.php(142): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#10 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#11 /var/www/html/wp-admin/customize.php(13): require_once('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/environs/inc/customizer.php on line 239
+[23-Jul-2024 13:30:22 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Gallery_Control" not found in /var/www/html/wp-content/themes/environs/inc/customizer.php:239
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(324): themename_customize_register(Object(WP_Customize_Manager))
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/class-wp-customize-manager.php(947): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 /var/www/html/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->wp_loaded('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-settings.php(722): do_action('wp_loaded')
+#8 /var/www/html/wp-config.php(142): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#10 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#11 /var/www/html/wp-admin/customize.php(13): require_once('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/environs/inc/customizer.php on line 239
+[23-Jul-2024 13:30:22 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Gallery_Control" not found in /var/www/html/wp-content/themes/environs/inc/customizer.php:239
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(324): themename_customize_register(Object(WP_Customize_Manager))
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/class-wp-customize-manager.php(947): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 /var/www/html/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->wp_loaded('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-settings.php(722): do_action('wp_loaded')
+#8 /var/www/html/wp-config.php(142): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#10 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#11 /var/www/html/wp-admin/customize.php(13): require_once('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/environs/inc/customizer.php on line 239
+[23-Jul-2024 13:30:23 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Gallery_Control" not found in /var/www/html/wp-content/themes/environs/inc/customizer.php:239
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(324): themename_customize_register(Object(WP_Customize_Manager))
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/class-wp-customize-manager.php(947): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 /var/www/html/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->wp_loaded('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-settings.php(722): do_action('wp_loaded')
+#8 /var/www/html/wp-config.php(142): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#10 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#11 /var/www/html/wp-admin/customize.php(13): require_once('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/environs/inc/customizer.php on line 239
+[23-Jul-2024 13:30:23 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Gallery_Control" not found in /var/www/html/wp-content/themes/environs/inc/customizer.php:239
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(324): themename_customize_register(Object(WP_Customize_Manager))
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/class-wp-customize-manager.php(947): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 /var/www/html/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->wp_loaded('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-settings.php(722): do_action('wp_loaded')
+#8 /var/www/html/wp-config.php(142): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#10 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#11 /var/www/html/wp-admin/customize.php(13): require_once('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/environs/inc/customizer.php on line 239
+[23-Jul-2024 13:30:23 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Gallery_Control" not found in /var/www/html/wp-content/themes/environs/inc/customizer.php:239
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(324): themename_customize_register(Object(WP_Customize_Manager))
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/class-wp-customize-manager.php(947): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 /var/www/html/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->wp_loaded('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-settings.php(722): do_action('wp_loaded')
+#8 /var/www/html/wp-config.php(142): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#10 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#11 /var/www/html/wp-admin/customize.php(13): require_once('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/environs/inc/customizer.php on line 239
+[23-Jul-2024 13:30:23 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Gallery_Control" not found in /var/www/html/wp-content/themes/environs/inc/customizer.php:239
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(324): themename_customize_register(Object(WP_Customize_Manager))
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/class-wp-customize-manager.php(947): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 /var/www/html/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->wp_loaded('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-settings.php(722): do_action('wp_loaded')
+#8 /var/www/html/wp-config.php(142): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#10 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#11 /var/www/html/wp-admin/customize.php(13): require_once('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/environs/inc/customizer.php on line 239
+[23-Jul-2024 13:30:37 UTC] PHP Warning:  Attempt to read property "title" on null in /var/www/html/wp-includes/class-wp-customize-widgets.php on line 905
+[23-Jul-2024 13:31:26 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Gallery_Control" not found in /var/www/html/wp-content/themes/environs/inc/customizer.php:18
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(324): themename_customize_register(Object(WP_Customize_Manager))
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/class-wp-customize-manager.php(947): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 /var/www/html/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->wp_loaded('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-settings.php(722): do_action('wp_loaded')
+#8 /var/www/html/wp-config.php(142): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#10 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#11 /var/www/html/wp-admin/customize.php(13): require_once('/var/www/html/w...')
+#12 {main}
+  thrown in /var/www/html/wp-content/themes/environs/inc/customizer.php on line 18
+[23-Jul-2024 13:50:08 UTC] PHP Warning:  Attempt to read property "title" on null in /var/www/html/wp-includes/class-wp-customize-widgets.php on line 905
+[23-Jul-2024 13:50:18 UTC] PHP Fatal error:  Uncaught TypeError: array_map(): Argument #2 ($array) must be of type array, int given in /var/www/html/wp-content/themes/environs/inc/customizer.php:32
+Stack trace:
+#0 /var/www/html/wp-content/themes/environs/inc/customizer.php(32): array_map('absint', 260)
+#1 /var/www/html/wp-includes/class-wp-hook.php(324): absint_array(260, Object(WP_Customize_Setting))
+#2 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(260, Array)
+#3 /var/www/html/wp-includes/class-wp-customize-setting.php(576): apply_filters('customize_sanit...', 260, Object(WP_Customize_Setting))
+#4 /var/www/html/wp-includes/class-wp-customize-manager.php(1847): WP_Customize_Setting->sanitize(260)
+#5 /var/www/html/wp-includes/class-wp-customize-setting.php(555): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#6 /var/www/html/wp-includes/class-wp-customize-setting.php(340): WP_Customize_Setting->post_value(Object(stdClass))
+#7 /var/www/html/wp-includes/class-wp-customize-manager.php(951): WP_Customize_Setting->preview()
+#8 /var/www/html/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->wp_loaded('')
+#9 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /var/www/html/wp-settings.php(722): do_action('wp_loaded')
+#12 /var/www/html/wp-config.php(142): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#14 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#15 /var/www/html/index.php(17): require('/var/www/html/w...')
+#16 {main}
+  thrown in /var/www/html/wp-content/themes/environs/inc/customizer.php on line 32
+[23-Jul-2024 13:50:55 UTC] PHP Fatal error:  Uncaught TypeError: array_map(): Argument #2 ($array) must be of type array, int given in /var/www/html/wp-content/themes/environs/inc/customizer.php:32
+Stack trace:
+#0 /var/www/html/wp-content/themes/environs/inc/customizer.php(32): array_map('absint', 260)
+#1 /var/www/html/wp-includes/class-wp-hook.php(324): absint_array(260, Object(WP_Customize_Setting))
+#2 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(260, Array)
+#3 /var/www/html/wp-includes/class-wp-customize-setting.php(576): apply_filters('customize_sanit...', 260, Object(WP_Customize_Setting))
+#4 /var/www/html/wp-includes/class-wp-customize-manager.php(2381): WP_Customize_Setting->sanitize(260)
+#5 /var/www/html/wp-includes/class-wp-customize-manager.php(2786): WP_Customize_Manager->validate_setting_values(Array, Array)
+#6 /var/www/html/wp-includes/class-wp-customize-manager.php(2530): WP_Customize_Manager->save_changeset_post(Array)
+#7 /var/www/html/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->save('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-admin/admin-ajax.php(192): do_action('wp_ajax_customi...')
+#11 {main}
+  thrown in /var/www/html/wp-content/themes/environs/inc/customizer.php on line 32
+[23-Jul-2024 13:50:57 UTC] PHP Warning:  Attempt to read property "title" on null in /var/www/html/wp-includes/class-wp-customize-widgets.php on line 905
+[23-Jul-2024 13:50:57 UTC] PHP Fatal error:  Uncaught TypeError: array_map(): Argument #2 ($array) must be of type array, int given in /var/www/html/wp-content/themes/environs/inc/customizer.php:32
+Stack trace:
+#0 /var/www/html/wp-content/themes/environs/inc/customizer.php(32): array_map('absint', 260)
+#1 /var/www/html/wp-includes/class-wp-hook.php(324): absint_array(260, Object(WP_Customize_Setting))
+#2 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(260, Array)
+#3 /var/www/html/wp-includes/class-wp-customize-setting.php(576): apply_filters('customize_sanit...', 260, Object(WP_Customize_Setting))
+#4 /var/www/html/wp-includes/class-wp-customize-manager.php(2381): WP_Customize_Setting->sanitize(260)
+#5 /var/www/html/wp-includes/class-wp-customize-manager.php(2786): WP_Customize_Manager->validate_setting_values(Array, Array)
+#6 /var/www/html/wp-includes/class-wp-customize-manager.php(2530): WP_Customize_Manager->save_changeset_post(Array)
+#7 /var/www/html/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->save('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-admin/admin-ajax.php(192): do_action('wp_ajax_customi...')
+#11 {main}
+  thrown in /var/www/html/wp-content/themes/environs/inc/customizer.php on line 32
+[23-Jul-2024 13:51:05 UTC] PHP Fatal error:  Uncaught TypeError: array_map(): Argument #2 ($array) must be of type array, int given in /var/www/html/wp-content/themes/environs/inc/customizer.php:32
+Stack trace:
+#0 /var/www/html/wp-content/themes/environs/inc/customizer.php(32): array_map('absint', 109)
+#1 /var/www/html/wp-includes/class-wp-hook.php(324): absint_array(109, Object(WP_Customize_Setting))
+#2 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(109, Array)
+#3 /var/www/html/wp-includes/class-wp-customize-setting.php(576): apply_filters('customize_sanit...', 109, Object(WP_Customize_Setting))
+#4 /var/www/html/wp-includes/class-wp-customize-manager.php(1847): WP_Customize_Setting->sanitize(109)
+#5 /var/www/html/wp-includes/class-wp-customize-setting.php(555): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#6 /var/www/html/wp-includes/class-wp-customize-setting.php(340): WP_Customize_Setting->post_value(Object(stdClass))
+#7 /var/www/html/wp-includes/class-wp-customize-manager.php(951): WP_Customize_Setting->preview()
+#8 /var/www/html/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->wp_loaded('')
+#9 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /var/www/html/wp-settings.php(722): do_action('wp_loaded')
+#12 /var/www/html/wp-config.php(142): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#14 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#15 /var/www/html/index.php(17): require('/var/www/html/w...')
+#16 {main}
+  thrown in /var/www/html/wp-content/themes/environs/inc/customizer.php on line 32
+[23-Jul-2024 13:51:44 UTC] PHP Fatal error:  Uncaught TypeError: array_map(): Argument #2 ($array) must be of type array, int given in /var/www/html/wp-content/themes/environs/inc/customizer.php:32
+Stack trace:
+#0 /var/www/html/wp-content/themes/environs/inc/customizer.php(32): array_map('absint', 109)
+#1 /var/www/html/wp-includes/class-wp-hook.php(324): absint_array(109, Object(WP_Customize_Setting))
+#2 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(109, Array)
+#3 /var/www/html/wp-includes/class-wp-customize-setting.php(576): apply_filters('customize_sanit...', 109, Object(WP_Customize_Setting))
+#4 /var/www/html/wp-includes/class-wp-customize-manager.php(2381): WP_Customize_Setting->sanitize(109)
+#5 /var/www/html/wp-includes/class-wp-customize-manager.php(2786): WP_Customize_Manager->validate_setting_values(Array, Array)
+#6 /var/www/html/wp-includes/class-wp-customize-manager.php(2530): WP_Customize_Manager->save_changeset_post(Array)
+#7 /var/www/html/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->save('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-admin/admin-ajax.php(192): do_action('wp_ajax_customi...')
+#11 {main}
+  thrown in /var/www/html/wp-content/themes/environs/inc/customizer.php on line 32
+[23-Jul-2024 13:52:45 UTC] PHP Fatal error:  Uncaught TypeError: array_map(): Argument #2 ($array) must be of type array, int given in /var/www/html/wp-content/themes/environs/inc/customizer.php:32
+Stack trace:
+#0 /var/www/html/wp-content/themes/environs/inc/customizer.php(32): array_map('absint', 109)
+#1 /var/www/html/wp-includes/class-wp-hook.php(324): absint_array(109, Object(WP_Customize_Setting))
+#2 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(109, Array)
+#3 /var/www/html/wp-includes/class-wp-customize-setting.php(576): apply_filters('customize_sanit...', 109, Object(WP_Customize_Setting))
+#4 /var/www/html/wp-includes/class-wp-customize-manager.php(2381): WP_Customize_Setting->sanitize(109)
+#5 /var/www/html/wp-includes/class-wp-customize-manager.php(2786): WP_Customize_Manager->validate_setting_values(Array, Array)
+#6 /var/www/html/wp-includes/class-wp-customize-manager.php(2530): WP_Customize_Manager->save_changeset_post(Array)
+#7 /var/www/html/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->save('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-admin/admin-ajax.php(192): do_action('wp_ajax_customi...')
+#11 {main}
+  thrown in /var/www/html/wp-content/themes/environs/inc/customizer.php on line 32
+[23-Jul-2024 13:53:46 UTC] PHP Fatal error:  Uncaught TypeError: array_map(): Argument #2 ($array) must be of type array, int given in /var/www/html/wp-content/themes/environs/inc/customizer.php:32
+Stack trace:
+#0 /var/www/html/wp-content/themes/environs/inc/customizer.php(32): array_map('absint', 109)
+#1 /var/www/html/wp-includes/class-wp-hook.php(324): absint_array(109, Object(WP_Customize_Setting))
+#2 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(109, Array)
+#3 /var/www/html/wp-includes/class-wp-customize-setting.php(576): apply_filters('customize_sanit...', 109, Object(WP_Customize_Setting))
+#4 /var/www/html/wp-includes/class-wp-customize-manager.php(2381): WP_Customize_Setting->sanitize(109)
+#5 /var/www/html/wp-includes/class-wp-customize-manager.php(2786): WP_Customize_Manager->validate_setting_values(Array, Array)
+#6 /var/www/html/wp-includes/class-wp-customize-manager.php(2530): WP_Customize_Manager->save_changeset_post(Array)
+#7 /var/www/html/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->save('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-admin/admin-ajax.php(192): do_action('wp_ajax_customi...')
+#11 {main}
+  thrown in /var/www/html/wp-content/themes/environs/inc/customizer.php on line 32
+[23-Jul-2024 13:54:51 UTC] PHP Warning:  Attempt to read property "title" on null in /var/www/html/wp-includes/class-wp-customize-widgets.php on line 905
+[23-Jul-2024 13:54:56 UTC] PHP Warning:  Attempt to read property "title" on null in /var/www/html/wp-includes/class-wp-customize-widgets.php on line 905
+[23-Jul-2024 13:55:07 UTC] PHP Warning:  Attempt to read property "title" on null in /var/www/html/wp-includes/class-wp-customize-widgets.php on line 905
+[23-Jul-2024 13:55:53 UTC] PHP Warning:  Attempt to read property "title" on null in /var/www/html/wp-includes/class-wp-customize-widgets.php on line 905
+[23-Jul-2024 13:56:42 UTC] PHP Warning:  Attempt to read property "title" on null in /var/www/html/wp-includes/class-wp-customize-widgets.php on line 905
+[23-Jul-2024 13:59:14 UTC] PHP Warning:  Attempt to read property "title" on null in /var/www/html/wp-includes/class-wp-customize-widgets.php on line 905
+[23-Jul-2024 14:03:11 UTC] PHP Warning:  Attempt to read property "title" on null in /var/www/html/wp-includes/class-wp-customize-widgets.php on line 905
+[23-Jul-2024 14:19:02 UTC] PHP Warning:  Attempt to read property "title" on null in /var/www/html/wp-includes/class-wp-customize-widgets.php on line 905
+[23-Jul-2024 14:19:45 UTC] PHP Warning:  Attempt to read property "title" on null in /var/www/html/wp-includes/class-wp-customize-widgets.php on line 905
+[24-Jul-2024 06:02:41 UTC] Automatic updates starting...
+[24-Jul-2024 06:02:42 UTC]   Automatic plugin updates starting...
+[24-Jul-2024 06:02:42 UTC]   Automatic plugin updates complete.
+[24-Jul-2024 06:02:42 UTC] Automatic updates complete.
+[24-Jul-2024 12:35:46 UTC] Automatic updates starting...
+[24-Jul-2024 12:35:46 UTC]   Automatic plugin updates starting...
+[24-Jul-2024 12:35:46 UTC]   Automatic plugin updates complete.
+[24-Jul-2024 12:35:47 UTC] Automatic updates complete.
+[24-Jul-2024 13:02:33 UTC] PHP Warning:  Undefined array key "message" in /var/www/html/wp-content/themes/environs/functions.php on line 99
+[24-Jul-2024 13:02:37 UTC] PHP Warning:  Undefined array key "message" in /var/www/html/wp-content/themes/environs/functions.php on line 99
+[24-Jul-2024 13:03:12 UTC] PHP Warning:  Undefined array key "message" in /var/www/html/wp-content/themes/environs/functions.php on line 99
+[24-Jul-2024 13:09:13 UTC] PHP Warning:  Undefined array key "message" in /var/www/html/wp-content/themes/environs/functions.php on line 99
+[24-Jul-2024 15:25:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WPMailSMTP\Core::get_mailer() in /var/www/html/wp-content/themes/environs/functions.php:109
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(324): handle_form_submission(Object(WP))
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/class-wp.php(830): do_action_ref_array('wp', Array)
+#4 /var/www/html/wp-includes/functions.php(1336): WP->main('')
+#5 /var/www/html/wp-blog-header.php(16): wp()
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/themes/environs/functions.php on line 109
+[24-Jul-2024 15:26:30 UTC] PHP Fatal error:  Uncaught Error: Class "WPMailSMTP\Mailer\PHPMailer\Mailer" not found in /var/www/html/wp-content/themes/environs/functions.php:108
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(324): handle_form_submission(Object(WP))
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/class-wp.php(830): do_action_ref_array('wp', Array)
+#4 /var/www/html/wp-includes/functions.php(1336): WP->main('')
+#5 /var/www/html/wp-blog-header.php(16): wp()
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/themes/environs/functions.php on line 108
+[24-Jul-2024 15:27:21 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /var/www/html/wp-content/plugins/wp-mail-smtp/src/Options.php on line 1253
+[24-Jul-2024 15:27:23 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /var/www/html/wp-content/plugins/wp-mail-smtp/src/Options.php on line 1253
+[24-Jul-2024 15:27:23 UTC] Error sending email: SMTP Error: Could not authenticate.
+[24-Jul-2024 15:27:25 UTC] Error sending email: SMTP Error: Could not authenticate.
+[24-Jul-2024 15:27:31 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /var/www/html/wp-content/plugins/wp-mail-smtp/src/Options.php on line 1253
+[24-Jul-2024 15:27:34 UTC] Error sending email: SMTP Error: Could not authenticate.
+[24-Jul-2024 15:30:47 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /var/www/html/wp-content/plugins/wp-mail-smtp/src/Options.php on line 1253
+[24-Jul-2024 15:30:49 UTC] Error sending email: SMTP Error: Could not authenticate.
+[24-Jul-2024 15:31:29 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /var/www/html/wp-content/plugins/wp-mail-smtp/src/Options.php on line 1253
+[24-Jul-2024 15:31:32 UTC] Error sending email: SMTP Error: Could not authenticate.
+[24-Jul-2024 15:31:42 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /var/www/html/wp-content/plugins/wp-mail-smtp/src/Options.php on line 1253
+[24-Jul-2024 15:31:44 UTC] Error sending email: SMTP Error: Could not authenticate.
+[24-Jul-2024 15:38:33 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /var/www/html/wp-content/plugins/wp-mail-smtp/src/Options.php on line 1253
+[24-Jul-2024 15:38:35 UTC] Error sending email: SMTP Error: Could not authenticate.
+[24-Jul-2024 15:38:46 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /var/www/html/wp-content/plugins/wp-mail-smtp/src/Options.php on line 1253
+[24-Jul-2024 15:38:46 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /var/www/html/wp-content/plugins/wp-mail-smtp/src/Options.php on line 1253
+[24-Jul-2024 15:38:48 UTC] Error sending email: SMTP Error: Could not authenticate.
+[24-Jul-2024 15:38:48 UTC] Error sending email: SMTP Error: Could not authenticate.
+[24-Jul-2024 15:40:16 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /var/www/html/wp-content/plugins/wp-mail-smtp/src/Options.php on line 1253
+[24-Jul-2024 15:40:19 UTC] Error sending email: SMTP Error: Could not authenticate.
+[24-Jul-2024 15:43:49 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[24-Jul-2024 16:13:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /var/www/html/wp-content/themes/environs/page-contact.php on line 99
+[24-Jul-2024 16:17:26 UTC] PHP Parse error:  syntax error, unexpected token "?", expecting end of file in /var/www/html/wp-content/themes/environs/page-contact.php on line 104
+[24-Jul-2024 17:30:31 UTC] PHP Warning:  Undefined variable $body in /var/www/html/wp-content/themes/environs/functions.php on line 131
+[24-Jul-2024 17:30:33 UTC] PHP Warning:  Undefined variable $body in /var/www/html/wp-content/themes/environs/functions.php on line 131
+[24-Jul-2024 17:30:50 UTC] PHP Warning:  Undefined variable $body in /var/www/html/wp-content/themes/environs/functions.php on line 131
+[24-Jul-2024 17:30:56 UTC] PHP Warning:  Undefined variable $body in /var/www/html/wp-content/themes/environs/functions.php on line 131
+[24-Jul-2024 17:30:59 UTC] PHP Warning:  Undefined variable $body in /var/www/html/wp-content/themes/environs/functions.php on line 131
+[24-Jul-2024 17:31:10 UTC] PHP Warning:  Undefined variable $body in /var/www/html/wp-content/themes/environs/functions.php on line 131
+[30-Jul-2024 11:11:38 UTC] Automatic updates starting...
+[30-Jul-2024 11:11:38 UTC]   Automatic plugin updates starting...
+[30-Jul-2024 11:11:38 UTC]   Automatic plugin updates complete.
+[30-Jul-2024 11:11:39 UTC] Automatic updates complete.
+[30-Jul-2024 11:11:45 UTC] PHP Warning:  Undefined array key "form_submitted" in /var/www/html/wp-content/themes/environs/functions.php on line 130
+[30-Jul-2024 11:11:50 UTC] PHP Warning:  Undefined array key "form_submitted" in /var/www/html/wp-content/themes/environs/functions.php on line 130
+[30-Jul-2024 11:11:50 UTC] PHP Warning:  Undefined array key "form_submitted" in /var/www/html/wp-content/themes/environs/functions.php on line 130
+[30-Jul-2024 11:11:50 UTC] PHP Warning:  Undefined array key "form_submitted" in /var/www/html/wp-content/themes/environs/functions.php on line 130
